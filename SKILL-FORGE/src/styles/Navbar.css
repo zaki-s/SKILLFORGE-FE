@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: rgb(240, 236, 236);
+  padding: 1rem 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+.logo {
+  position: absolute;
+  left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: #565757;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+  font-size: 1.4rem; 
+  font-weight: 600;
+}
+
+.navlinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.navlinks a:hover {
+  color: #565757;
+  text-decoration: underline;
+}
+
+.profile {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+.profile-icon {
+  margin-top: 10px;
+  width: 36px;
+  height: 36px;
+  filter: invert(100%);
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.profile-icon:hover {
+  filter: invert(50%);
+}
