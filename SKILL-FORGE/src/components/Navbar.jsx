@@ -9,6 +9,7 @@ function Navbar() {
       <ul className="navlinks">
         <li><Link to="/dashboard">Journeys</Link></li>
         <li><Link to="/progress">My Progress</Link></li>
+        <li><Link to="/milestones">Milestones</Link></li>
         <li><Link to="/contact">Contacts</Link></li>
       </ul>
       <div className="profile">

@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <h1 style={{ color: 'white', padding: '2rem' }}>Welcome to SkillForge</h1>
     </>
   );
 }
